@@ -93,8 +93,15 @@ main {
 }
 
 h2 {
-    color: #ffccf2;
+    color: #ffccf200;
+    -webkit-text-stroke: 1px #ffccf2;
+    font-weight: 400;
     margin: 0 0 30px;
-    font-size: 6rem;
+    font-size: 9rem;
     line-height: 1;
+}
+
+h2 span {
+    color: #ffccf2;
+    -webkit-text-stroke: none;
 }
